@@ -12,4 +12,9 @@ body {
 .mouse-event {
   border: solid 1px lightgray;
   margin: 40px;
+  min-width: 180px;
+}
+
+.container {
+  display: flex;
 }
