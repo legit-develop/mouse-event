@@ -18,3 +18,9 @@ body {
 .container {
   display: flex;
 }
+
+@media (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+}
