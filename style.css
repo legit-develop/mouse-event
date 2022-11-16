@@ -13,6 +13,8 @@ body {
   border: solid 1px lightgray;
   margin: 40px;
   min-width: 180px;
+  position: relative;
+  min-height: 100px;
 }
 
 .container {
@@ -24,4 +26,8 @@ body {
   .container {
     flex-direction: column;
   }
+}
+
+.mouse-event h4 {
+  position: absolute;
 }
